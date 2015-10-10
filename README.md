@@ -13,7 +13,7 @@
 具体的课程安排可以从[这里](https://cs162.eecs.berkeley.edu)查看，这里整理好所有的资料(讲义、扩展阅读、作业等)
 
 
-1. [Intro to CS162](https://github.com/samlaudev/Learning-Operating-Systems/blob/master/Handouts/PDF/Lecture%201-%20What%20is%20an%20Operating%20System.pdf) [[ppt](https://github.com/samlaudev/Learning-Operating-Systems/raw/a0262dc3370d4f0eb890b8c8b07a1e9857581dec/Handouts/PPT/Lecture%201-%20What%20is%20an%20Operating%20System.pptx)]
+1. [Intro to CS162](https://raw.githubusercontent.com/samlaudev/Learning-Operating-Systems/master/Handouts/PDF/Lecture%201-%20What%20is%20an%20Operating%20System.pdf) [[ppt](https://github.com/samlaudev/Learning-Operating-Systems/raw/a0262dc3370d4f0eb890b8c8b07a1e9857581dec/Handouts/PPT/Lecture%201-%20What%20is%20an%20Operating%20System.pptx)]
 
 
 #学习记录
