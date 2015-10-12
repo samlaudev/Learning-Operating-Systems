@@ -21,7 +21,7 @@
 * 云设施
 
 ##什么是操作系统？
-
+![](https://raw.githubusercontent.com/samlaudev/Learning-Operating-Systems/master/Blogs/2015-10-12/OS-Role.png)
 
 从**不同的角度**来看待同一样事物一般都会有不同的看法，下面我们从裁判、魔术师和胶水三个角度来看操作系统：
 
