@@ -1,2 +1,0 @@
-#What's Operating System?
-
