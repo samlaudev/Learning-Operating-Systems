@@ -17,4 +17,4 @@
 
 
 #学习笔记
-1. [什么是操作系统？](https://github.com/samlaudev/Learning-Operating-Systems/blob/master/Blogs/2015-10-12-What's-Operating-System.md)
+1. [什么是操作系统？](https://github.com/samlaudev/Learning-Operating-Systems/blob/master/Blogs/2015-10-12/2015-10-12-What's-Operating-System.md)
