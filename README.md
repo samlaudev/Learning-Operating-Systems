@@ -16,4 +16,5 @@
 1. [Intro to CS162](https://raw.githubusercontent.com/samlaudev/Learning-Operating-Systems/master/Handouts/PDF/Lecture%201-%20What%20is%20an%20Operating%20System.pdf) [[ppt](https://github.com/samlaudev/Learning-Operating-Systems/raw/a0262dc3370d4f0eb890b8c8b07a1e9857581dec/Handouts/PPT/Lecture%201-%20What%20is%20an%20Operating%20System.pptx)]
 
 
-#学习记录
+#学习笔记
+1. [什么是操作系统？](https://github.com/samlaudev/Learning-Operating-Systems/blob/master/Blogs/2015-10-12-What's-Operating-System.md)
