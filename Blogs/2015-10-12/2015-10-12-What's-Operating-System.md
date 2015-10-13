@@ -100,4 +100,8 @@ OS提供两种操作**硬件**的方式：
 
 ![](https://raw.githubusercontent.com/samlaudev/Learning-Operating-Systems/master/Blogs/2015-10-12/Mode-Transition.png)
 
-##操作系统的定义
+##结论
+* 操作系统提供一个virtual machine abstraction来处理各种各样的硬件
+* 操作系统协调资源和防止用户之间相互访问资源
+* 操作系统通过提供易于使用API来简化编程
+* 操作系统提供一系列的fault tolerance和fault recovery措施。
