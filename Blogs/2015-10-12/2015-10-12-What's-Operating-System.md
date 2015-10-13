@@ -48,11 +48,15 @@
 ###如何应对复杂性
 为了应对硬件的复杂性，我们在硬件和应用程序之间引入一个__Virtual Machine Abstraction__来管理硬件资源和提供易用API给程序员编程。
 
+![](https://raw.githubusercontent.com/samlaudev/Learning-Operating-Systems/master/Blogs/2015-10-12/Virtual-Machine-Abstraction.png)
+
 ####Virtual Machine
 虚拟机有两种分类：
 
 * __进程VM：__ 支持**单个程序**的执行。
 * __系统VM：__ 支持**整个系统和应用程序**的执行。
+
+![](https://raw.githubusercontent.com/samlaudev/Learning-Operating-Systems/master/Blogs/2015-10-12/Virtual-Machine.png)
 
 __进程VM__具有以下特点：
 
@@ -65,9 +69,13 @@ __系统VM__有利于OS的开发：
 * 当OS崩溃时，限制在一个VM
 * 有助于在其他OSs测试程序
 
+![](https://raw.githubusercontent.com/samlaudev/Learning-Operating-Systems/master/Blogs/2015-10-12/System-Virtual-Machine.png)
 
 
 ####Address Translation
+* __地址空间：__ 就是一组内存地址，每个用户程序和kernel(内核)都有独立的地址空间。
+* __地址转换：__ 通过MMU(Memory Management Unit)硬件映射将CPU的虚拟地址转换为内存的物理地址。
+
 	
 
 ####Dual Mode Operation
