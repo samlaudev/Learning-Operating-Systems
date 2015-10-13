@@ -76,6 +76,12 @@ __系统VM__有利于OS的开发：
 * __地址空间：__ 就是一组内存地址，每个用户程序和kernel(内核)都有独立的地址空间。
 * __地址转换：__ 通过MMU(Memory Management Unit)硬件映射将CPU的虚拟地址转换为内存的物理地址。
 
+![](https://raw.githubusercontent.com/samlaudev/Learning-Operating-Systems/master/Blogs/2015-10-12/Address-Translation.png)
+
+Address Translation**详情**如下：
+
+* 地址转换借助__Page Table__完成
+* 地址转换有利于__控制转换和访问__
 	
 
 ####Dual Mode Operation
