@@ -81,6 +81,8 @@ __系统VM__有利于OS的开发：
 Address Translation**详情**如下：
 
 * 地址转换借助__Page Table__完成
+![](https://raw.githubusercontent.com/samlaudev/Learning-Operating-Systems/master/Blogs/2015-10-12/Address-Translation-Details.png)
+
 * 地址转换有利于__控制转换和访问__
 	
 
@@ -95,5 +97,7 @@ OS提供两种操作**硬件**的方式：
 * System Call(系统调用)
 * Interrupts(中断)
 * Other Exceptions(异常)
+
+![](https://raw.githubusercontent.com/samlaudev/Learning-Operating-Systems/master/Blogs/2015-10-12/Mode-Transition.png)
 
 ##操作系统的定义
