@@ -37,7 +37,7 @@
 * 不同类型的CPU：Pentium, PowerPC, ColdFire, ARM, MIPS
 * 不同容量的内存、磁盘
 * 不同类型的I/O设备：鼠标、键盘、传感器、摄像头、指纹读取器
-* 不同的网络环境：电缆、DSL、无限、防火墙
+* 不同的网络环境：电缆、DSL、无线、防火墙
 
 针对以上硬件的复杂性，我们思考以下问题：
 
@@ -46,7 +46,7 @@
 * 是否每个程序能够访问所有的硬件设备？
 
 ###如何应对复杂性
-为了应对硬件的复杂性，我们在硬件和应用程序之间引入一个__Virtual Machine Abstraction__来管理硬件资源和提供易用API给程序员编程。
+为了应对硬件的复杂性，我们在硬件和应用程序之间引入一层__Virtual Machine Abstraction__来管理硬件资源和提供易用API给程序员编程。
 
 ![](https://raw.githubusercontent.com/samlaudev/Learning-Operating-Systems/master/Blogs/2015-10-12/Virtual-Machine-Abstraction.png)
 
