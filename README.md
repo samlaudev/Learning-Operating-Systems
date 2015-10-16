@@ -22,11 +22,13 @@
 2. [进程简介](https://github.com/samlaudev/Learning-Operating-Systems/blob/master/Blogs/2015-10-16/2015-10-16-Introduction-to-the-Process.md)
 
 #基本工具
+###vagrant & virtual box
 ###vim
 作为一个程序员，一个常用的工具就是**编辑器**，我选择一个能极大提高自己开发效率的编辑器**vim**。[这里](http://derekwyatt.org/vim/tutorials/)有一系列的视频教程，也可以参考我的[Vim配置、插件和使用技巧](http://www.jianshu.com/p/a0b452f8f720)这篇文章。
 
 ###make
 ###gdb
 ###git
+
 
 #项目
