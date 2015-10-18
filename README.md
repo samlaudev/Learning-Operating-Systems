@@ -27,6 +27,8 @@
 作为一个程序员，一个常用的工具就是**编辑器**，我选择一个能极大提高自己开发效率的编辑器**vim**。[这里](http://derekwyatt.org/vim/tutorials/)有一系列的视频教程，也可以参考我的[Vim配置、插件和使用技巧](http://www.jianshu.com/p/a0b452f8f720)这篇文章。
 
 ###make
+编写完程序之后，下一步就是编译程序。一般来说，如果程序规模不大的话，在终端中使用简单命令行编译即可。但随着程序规模越来越大，就需要自动化编译和构建工具[make](https://en.wikipedia.org/wiki/Make_(software))，make通过读取`Makefile`的编译规则来编译程序和函数库。具体用法可以参考这篇文章[A tutorial by example](http://mrbook.org/blog/?s=make)。更深入的用法可以参考[GNU make](http://www.gnu.org/software/make/manual/make.html)
+
 ###gdb
 ###git
 
