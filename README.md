@@ -45,7 +45,7 @@
 官方提供一个入门教程[The Valgrind Quick Start Guide](http://www.valgrind.org/docs/manual/QuickStart.html)和深入学习的[Valgrind User Manual](http://www.valgrind.org/docs/manual/manual.html)参考手册。
 
 ###git
-[git]()
+[git](http://www.git-scm.com)是一个开源分布式版本控制工具，它能够跟踪所有提交数据的历史记录，方便你回溯到任何历史版本来查看和修改。不仅如此，它还能够让不同的团队成员协同完成一项任务。
 
 
 #项目
