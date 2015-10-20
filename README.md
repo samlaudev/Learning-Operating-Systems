@@ -30,6 +30,10 @@
 编写完程序之后，下一步就是编译程序。一般来说，如果程序规模不大的话，在终端中使用简单命令行编译即可。但随着程序规模越来越大，就需要自动化编译和构建工具[make](https://en.wikipedia.org/wiki/Make_(software))，make通过读取`Makefile`的编译规则来编译程序和函数库。具体用法可以参考这篇文章[A tutorial by example](http://mrbook.org/blog/?s=make)。更深入的用法可以参考[GNU make](http://www.gnu.org/software/make/manual/make.html)
 
 ###gdb
+当你运行程序后，发现与自己预想的结果不对，这时你需要调试工具[gdb](https://sourceware.org/gdb/)。gdb是[GNU Project](https://en.wikipedia.org/wiki/GNU)开发的调试器，它能够在程序中设置断点，启动程序后运行到断点之后停止运行，然后查看各个变量的值。要想学习如何使用，可以参考陈皓的[用GDB调试程序](http://blog.csdn.net/haoel/article/category/9197)系列文章，想深入学习的话，可以查阅官方的[Debugging with gdb](https://sourceware.org/gdb/current/onlinedocs/gdb/)
+
+###valgrind
+
 ###git
 
 
