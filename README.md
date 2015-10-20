@@ -33,8 +33,19 @@
 当你运行程序后，发现与自己预想的结果不对，这时你需要调试工具[gdb](https://sourceware.org/gdb/)。gdb是[GNU Project](https://en.wikipedia.org/wiki/GNU)开发的调试器，它能够在程序中设置断点，启动程序后运行到断点之后停止运行，然后查看各个变量的值。要想学习如何使用，可以参考陈皓的[用GDB调试程序](http://blog.csdn.net/haoel/article/category/9197)系列文章，想深入学习的话，可以查阅官方的[Debugging with gdb](https://sourceware.org/gdb/current/onlinedocs/gdb/)
 
 ###valgrind
+[valgrind](http://www.valgrind.org)是一个用于内存调试、内存泄露检查以及性能分析工具。它的子工具Memcheck能够检查到以下内存问题：
+* 使用未初始化的内存
+* 使用已经释放了的内存
+* 使用超过malloc分配的内存空间
+* 对堆栈的非法访问
+* 申请的空间是否有释放
+* 不匹配使用malloc/free/new/delete等方法来申请和释放内存
+* 重复free
+
+官方提供一个入门教程[The Valgrind Quick Start Guide](http://www.valgrind.org/docs/manual/QuickStart.html)和深入学习的[Valgrind User Manual](http://www.valgrind.org/docs/manual/manual.html)参考手册。
 
 ###git
+[git]()
 
 
 #项目
