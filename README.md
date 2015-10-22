@@ -16,6 +16,9 @@
 1. [Intro to CS162](https://raw.githubusercontent.com/samlaudev/Learning-Operating-Systems/master/Handouts/PDF/Lecture%201-%20What%20is%20an%20Operating%20System.pdf) [[ppt](https://github.com/samlaudev/Learning-Operating-Systems/raw/a0262dc3370d4f0eb890b8c8b07a1e9857581dec/Handouts/PPT/Lecture%201-%20What%20is%20an%20Operating%20System.pptx)]
 2. [Introduction to the Process](https://raw.githubusercontent.com/samlaudev/Learning-Operating-Systems/master/Handouts/PDF/Lecture%202-%20Introduction%20to%20Process.pdf) [[ppt](https://raw.githubusercontent.com/samlaudev/Learning-Operating-Systems/master/Handouts/PPT/Lecture%202-%20Introduction%20to%20Process.pptx)]
 
+####视频链接：[UC Berkeley Computer Science 162](https://www.youtube.com/watch?v=XgQo4JkN4Bw&list=PL3289DD0D0F0CD4A3)
+
+
 
 #学习笔记
 1. [什么是操作系统？](https://github.com/samlaudev/Learning-Operating-Systems/blob/master/Blogs/2015-10-12/2015-10-12-What's-Operating-System.md)
