@@ -29,6 +29,14 @@
 * __魔术师(Abstraction & Visualization)：__ 提供一种简洁、易用的API来操作物理资源，隐藏硬件的复杂性。没有操作系统之前，程序员需要了解硬件结构组成和工作原理才能正确地操作硬件，有了操作系统之后，程序员无需知道它内部的实现原理，只需正确地调用接口就能返回对应的结果。很多人就会感叹，这就好像魔术师施展了魔术一样神奇。
 * __胶水(Common Services & Combination)：__ 操作系统提供一些基本服务(存储、窗口系统、网络、共享、授权等)，操作系统像胶水一样将它们粘在一起，构成一个强大的系统。
 
+###OS设计模式
+* __云计算(Cloud computing)__
+* __浏览器(Web browsers)__
+* __多媒体播放器(Media players)__
+* __数据库(Multi-user database systems)__
+* __并行应用程序(Parallel applications	)__
+* __互联网(On the Internet)__
+
 
 ##系统的挑战：复杂性
 ###硬件复杂性
