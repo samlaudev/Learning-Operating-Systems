@@ -37,6 +37,12 @@
 * __并行应用程序(Parallel applications	)__
 * __互联网(On the Internet)__
 
+###评判标准
+* __可靠性(Reliability)：__ 系统做到了我们所期望的东西。
+* __安全性(Security)：__ 即使被恶意攻击，计算机操作也能正常执行。
+* __可移植性(Portability)：__ 当底层硬件(CPU、内存、磁盘、网络设备等)改变时，应用程序无需修改也能正常运行。
+* __性能(Performance)：__ 性能是被效率(efficiency)、响应时间(response time)、吞吐量(throughput)和可预测性(predictability)等多方面测量。
+* __普及性(Adoption)：__ 系统是否被各个用户广泛使用。
 
 ##系统的挑战：复杂性
 ###硬件复杂性
@@ -54,7 +60,7 @@
 * 是否每个程序能够访问所有的硬件设备？
 
 ###如何应对复杂性
-为了应对硬件的复杂性，我们在硬件和应用程序之间引入一层__Virtual Machine Abstraction__来管理硬件资源和提供易用API给程序员编程。
+为了应对硬件的复杂性，我们在硬件和应用程序之间引入一层__Virtual Machine Interface__来管理硬件资源和提供易用API给程序员编程。
 
 ![](https://raw.githubusercontent.com/samlaudev/Learning-Operating-Systems/master/Blogs/2015-10-12/Virtual-Machine-Abstraction.png)
 
