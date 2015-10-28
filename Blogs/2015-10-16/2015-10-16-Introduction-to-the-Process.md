@@ -48,14 +48,20 @@ $ gcc -o main main.c
 * __链接阶段:__ 由于`main.c`文件引用一个标准库的函数`printf`，这个`printf`函数存放在一个单独预编译好的`printf.o`文件中，因此，需要借助链接器以某种方式合并到`main.o`文件中，最后生成一个可执行目标文件(简称为可执行文件)`main`。
 
 ###程序运行
+`main.c`源文件经过gcc编译器生成可执行文件`main`后，可以使用[unix shell](https://en.wikipedia.org/wiki/Unix_shell)来运行程序
 
+```
+$ ./main
+Hello, world
+```
+虽然运行程序只需在shell敲入简单的命令行即可，实际上它是一个非常复杂的过程，它涉及到硬件设备、操作系统和应用程序之间的复杂交互。
 
 ####硬件系统
-* CPU(处理器)
-* Memory(内存)
-* Storage(存储设备)
-* Networks(网络设备)
-* Input/Output(输入/输出设备)
+* __CPU(处理器)：__ 主要用来解释和执行存储在内存中的指令，它有很多寄存器来存储各种临时数据，其中有一个很重要的寄存器PC(Prorgram Counter)程序计数器，它总是指向执行指令的地址；而且它还有一个ALU(Arithmetic Logic Unit)算计逻辑单元来对数据进行运算。
+* __Memory(内存)：__
+* __Storage(存储设备)：__
+* __Networks(网络设备)：__
+* __Input/Output(输入/输出设备)：__
 
 ####指令周期
 
