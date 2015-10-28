@@ -33,8 +33,23 @@ int main(void)
 
 
 ###编译系统
+由于`main.c`只是供程序员阅读的源代码，而计算机只能解释和执行0和1的字节序列，所以我们需要使用[编译器](https://en.wikipedia.org/wiki/Compiler)来将`main.c`源文件转化为可执行目标文件，这里我使用的是[gcc](https://en.wikipedia.org/wiki/GNU_Compiler_Collection)编译器：
+
+```
+$ gcc -o main main.c
+```
+
+编译完之后，就会产生一个可执行目标文件`main`。其实编译过程是经历以下**四个阶段：**
+
+* __预处理阶段:__ 预处理器根据以字符`#`开头的指令修改C的源程序。例如，`main.c`程序第一行有预处理指令`#include <stdio.h>`，那么预处理器将读取头文件`stdio.h`的内容，然后插入到`main.c`源程序中，得到一个以`.i`为后缀的`main.i`文件。
+
+* __编译阶段:__ 编译器将`main.i`文件翻译成`main.s`文件，里面内容都是存放汇编语言指令。
+* __汇编阶段:__ 汇编器将`main.s`文件翻译成机器语言指令，把这些指令打包成一种叫可重定位目标程序(relocatable object program)格式，并将结果保存在`main.c`文件。
+* __链接阶段:__ 由于`main.c`文件引用一个标准库的函数`printf`，这个`printf`函数存放在一个单独预编译好的`printf.o`文件中，因此，需要借助链接器以某种方式合并到`main.o`文件中，最后生成一个可执行目标文件(简称为可执行文件)`main`。
 
 ###程序运行
+
+
 ####硬件系统
 * CPU(处理器)
 * Memory(内存)
