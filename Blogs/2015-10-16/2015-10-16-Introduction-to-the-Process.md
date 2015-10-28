@@ -1,5 +1,4 @@
 #Introduction to the Process
-![](https://raw.githubusercontent.com/samlaudev/Learning-Operating-Systems/master/Blogs/2015-10-16/Loading-Program.png)
 
 
 
@@ -44,7 +43,9 @@ $ gcc -o main main.c
 * __预处理阶段:__ 预处理器根据以字符`#`开头的指令修改C的源程序。例如，`main.c`程序第一行有预处理指令`#include <stdio.h>`，那么预处理器将读取头文件`stdio.h`的内容，然后插入到`main.c`源程序中，得到一个以`.i`为后缀的`main.i`文件。
 
 * __编译阶段:__ 编译器将`main.i`文件翻译成`main.s`文件，里面内容都是存放汇编语言指令。
+
 * __汇编阶段:__ 汇编器将`main.s`文件翻译成机器语言指令，把这些指令打包成一种叫可重定位目标程序(relocatable object program)格式，并将结果保存在`main.c`文件。
+
 * __链接阶段:__ 由于`main.c`文件引用一个标准库的函数`printf`，这个`printf`函数存放在一个单独预编译好的`printf.o`文件中，因此，需要借助链接器以某种方式合并到`main.o`文件中，最后生成一个可执行目标文件(简称为可执行文件)`main`。
 
 ###程序运行
@@ -56,14 +57,22 @@ Hello, world
 ```
 虽然运行程序只需在shell敲入简单的命令行即可，实际上它是一个非常复杂的过程，它涉及到硬件设备、操作系统和应用程序之间的复杂交互。
 
+![](https://raw.githubusercontent.com/samlaudev/Learning-Operating-Systems/master/Blogs/2015-10-16/Loading-Program.png)
+
+
 ####硬件系统
 * __CPU(处理器)：__ 主要用来解释和执行存储在内存中的指令，它有很多寄存器来存储各种临时数据，其中有一个很重要的寄存器PC(Prorgram Counter)程序计数器，它总是指向执行指令的地址；而且它还有一个ALU(Arithmetic Logic Unit)算计逻辑单元来对数据进行运算。
-* __Memory(内存)：__
-* __Storage(存储设备)：__
-* __Networks(网络设备)：__
-* __Input/Output(输入/输出设备)：__
+
+* __Memory(内存)：__ 在CPU执行程序时，主要用来存储代码和数据。从物理上来看，内存是由DRAM(Dynamic Random-Access Memory)动态随机存取存储器组成；从逻辑上来看，它是一个线性的字节数组，每个字节都有唯一的地址(数组索引)。
+
+* __Storage(存储设备)：__ 内存只能临时保存数据，一旦断电，数据就会消失。而硬盘这些存储设备能够用于长期存储数据，即使断电，数据也不会消失。
+
+* __Networks(网络设备)：__ 如果没有网络，计算机只是一个孤立的个体，不能与其他计算机交流。如果有了网络之后，就能够与其他计算机系统相互发送和接收数据。
+
+* __Input/Output(输入/输出设备)：__ 常用输入设备有键盘、鼠标等，输入设备有显示器。
 
 ####指令周期
+
 
 ####操作系统
 * Process(进程)：程序与进程区别，context切换，scheduling(调度)，protection(保护机制)
