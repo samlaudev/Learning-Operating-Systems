@@ -1,8 +1,24 @@
 #Introduction to the Process
 
 ##程序运行原理
+从C语言最简单的例子`Hello, world`程序开始来深入理解程序的运行原理：
+
+```
+#include <stdio.h>
+
+int main(void)
+{
+	printf("Hello, world\n");
+
+	return 0;
+}
+
+```
+
 
 ###信息储存
+使用编辑器编辑完程序之后，程序就会保存在磁盘中。那么具体它怎么保存的呢？
+
 
 ###编译系统
 
@@ -22,17 +38,19 @@
 * Loading(加载)：
 
 ##核心概念
-###Thread
-###Address Space
+
 ###Process
-####进程模型
-####进程创建
-####进程结束
-####进程层次结构
-####进程状态
-####进程数据结构
 
 ###Dual Mode Operation
+
+####User&Kernel模式
+####保护机制
+####模式切换
+####Interrupt Vector
+
+
+###Kernel启动
+
 
 
 ##参考资料
