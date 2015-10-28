@@ -83,10 +83,17 @@ CPU是如何逐条解释和执行加载到内存中的指令呢？过程如下�
 
 ![](https://raw.githubusercontent.com/samlaudev/Learning-Operating-Systems/master/Blogs/2015-10-16/Instruction-Cycle.png)
 
-####操作系统
-* Process(进程)：程序与进程区别，context切换，scheduling(调度)，protection(保护机制)
-* I/O(输入/输出)：
-* Loading(加载)：
+####运行main程序
+前面简单地描述系统的硬件组成和功能之后，我们正式解释在shell中执行以下命令行后
+
+```
+$ ./main
+```
+应用程序、操作系统以及硬件系统是具体如何工作：
+
+1. 将存储在硬盘中的程序加载内存中
+2. CPU执行内存中指令，这些指令将`Hello, world`字符串从内存复制到寄存器
+3. 再将寄存器数据复制到显示设备，最终显示在屏幕上
 
 ##核心概念
 
