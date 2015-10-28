@@ -72,7 +72,16 @@ Hello, world
 * __Input/Output(输入/输出设备)：__ 常用输入设备有键盘、鼠标等，输入设备有显示器。
 
 ####指令周期
+CPU是如何逐条解释和执行加载到内存中的指令呢？过程如下：
 
+1. 根据PC从内存中获取将要执行的指令
+2. 解码
+3. 执行(可能需要用到寄存器)
+4. 将结果写回寄存器或内存
+5. 更新PC(下一条指令)
+6. 重复 
+
+![](https://raw.githubusercontent.com/samlaudev/Learning-Operating-Systems/master/Blogs/2015-10-16/Instruction-Cycle.png)
 
 ####操作系统
 * Process(进程)：程序与进程区别，context切换，scheduling(调度)，protection(保护机制)
