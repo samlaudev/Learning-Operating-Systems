@@ -143,9 +143,6 @@ OS提供两种操作**硬件资源**的方式
 
 ![](https://raw.githubusercontent.com/samlaudev/Learning-Operating-Systems/master/Blogs/2015-10-16/Interrupt-Vector.png)
 
-###Kernel启动
-
-
 
 ##参考资料
 * [深入理解计算机系统](http://book.douban.com/subject/5333562/)
