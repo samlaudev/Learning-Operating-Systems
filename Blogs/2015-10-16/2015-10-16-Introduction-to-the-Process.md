@@ -129,7 +129,10 @@ OS提供两种操作**硬件资源**的方式
 * __Timer interrupts(定时器中断):__ 不管进程做什么，内核都必须有一种方式从当前进程定期重新获取控制权。
 
 ####模式切换
+一旦内核已经将用户进程放在一个精心构造的sanbox里面，下一个问题就是我们如何安全地从用户模式切换到内核模式，或反之？
 
+* __User to kernel mode:__ 系统调用(System call)，中断(Interrupt)，异常(Exception)
+* __Kernel to user mode:__ 创建进程(New process)，从系统调用、中断、异常中恢复(Resume after an exception, interrupt or system call)，切换到不同进程(Switch to a different process)，用户层向上调用(User-level upcall)
 
 ####Interrupt Vector
 
