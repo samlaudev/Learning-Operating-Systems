@@ -98,6 +98,14 @@ $ ./main
 ##核心概念
 
 ###Process
+####Process与Program的区别
+* __Program：__ 编译器将源代码转化为一系列的机器指令后存储到一个文件，此时程序还没运行。
+* __Process：__ 当程序加载到内存，然后CPU逐条解释和执行时，此时就变成进程。所以说进程只是程序运行中的一个实例。
+
+
+####Thread
+* __Process：__ 
+* __Thread：__
 
 ###Dual Mode Operation
 
