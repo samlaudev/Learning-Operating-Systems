@@ -135,7 +135,13 @@ OS提供两种操作**硬件资源**的方式
 * __Kernel to user mode:__ 创建进程(New process)，从系统调用、中断、异常中恢复(Resume after an exception, interrupt or system call)，切换到不同进程(Switch to a different process)，用户层向上调用(User-level upcall)
 
 ####Interrupt Vector
+当中断、异常或系统调用发生时，操作系统根据不同的事件(除零异常、读取文件的系统调用或定时器中断)来做出不同的处理。那么处理器怎么知道运行哪段代码呢？
 
+为了识别在上下文切换时运行的代码，有一个特殊的寄存器指向一段内核的内存区域叫*interrupt vector*。interrupt vector其实就是一个指针数组，每个元素都指向不同handler procedure的首地址。
+
+因此，当中断、异常或系统调用发生时，硬件根据interrupt vector来选择对应的入口地址来调用handler procedure。
+
+![](https://raw.githubusercontent.com/samlaudev/Learning-Operating-Systems/master/Blogs/2015-10-16/Interrupt-Vector.png)
 
 ###Kernel启动
 
