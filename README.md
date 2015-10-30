@@ -23,6 +23,7 @@
 #学习笔记
 1. [什么是操作系统？](https://github.com/samlaudev/Learning-Operating-Systems/blob/master/Blogs/2015-10-12/2015-10-12-What's-Operating-System.md)
 2. [进程简介](https://github.com/samlaudev/Learning-Operating-Systems/blob/master/Blogs/2015-10-16/2015-10-16-Introduction-to-the-Process.md)
+3. [进程，Fork，I/O，文件](https://github.com/samlaudev/Learning-Operating-Systems/blob/master/Blogs/2015-10-30/2015-10-30-Processes%2C%20Fork%2C%20I:O%2C%20Files.md)
 
 #基本工具
 ###vagrant & virtual box
