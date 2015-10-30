@@ -106,6 +106,8 @@ $ ./main
 * __Process:__ 
 * __Thread:__
 
+![](https://raw.githubusercontent.com/samlaudev/Learning-Operating-Systems/master/Blogs/2015-10-16/Process-Thread-Relationship.png)
+
 ###Dual Mode Operation
 ####User&Kernel模式
 OS提供两种操作**硬件资源**的方式
