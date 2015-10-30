@@ -102,7 +102,7 @@ $ ./main
 * __Process:__ 当程序加载到内存，然后CPU逐条解释和执行时，此时就变成进程。所以说进程只是程序运行中的一个实例。
 
 
-####Thread
+####Process与Thread的关系
 * __Process:__ 
 * __Thread:__
 
