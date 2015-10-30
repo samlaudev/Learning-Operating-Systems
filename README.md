@@ -15,6 +15,7 @@
 
 1. [Intro to CS162](https://raw.githubusercontent.com/samlaudev/Learning-Operating-Systems/master/Handouts/PDF/Lecture%201-%20What%20is%20an%20Operating%20System.pdf) [[ppt](https://github.com/samlaudev/Learning-Operating-Systems/raw/a0262dc3370d4f0eb890b8c8b07a1e9857581dec/Handouts/PPT/Lecture%201-%20What%20is%20an%20Operating%20System.pptx)]
 2. [Introduction to the Process](https://raw.githubusercontent.com/samlaudev/Learning-Operating-Systems/master/Handouts/PDF/Lecture%202-%20Introduction%20to%20Process.pdf) [[ppt](https://raw.githubusercontent.com/samlaudev/Learning-Operating-Systems/master/Handouts/PPT/Lecture%202-%20Introduction%20to%20Process.pptx)]
+3. [Processes, Fork, I/O, Files](https://github.com/samlaudev/Learning-Operating-Systems/raw/master/Handouts/PDF/Lecture%203-%20Processes%2C%20Fork%2C%20I:O%2C%20Files.pdf)[[ppt](https://github.com/samlaudev/Learning-Operating-Systems/raw/master/Handouts/PPT/Lecture%203-%20Processes%2C%20Fork%2C%20I:O%2C%20Files.pptx)]
 
 ####视频链接：[UC Berkeley Computer Science 162 Fall 2015](https://www.youtube.com/watch?v=1IcZB26STUE&list=PLmJS5QR6Sdxy4XHQ5A__3irZvSQh1yI8V)
 
