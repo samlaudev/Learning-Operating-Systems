@@ -18,3 +18,8 @@
 ###文件与目录
 
 ###标准I/O
+
+##参考资料
+* [Operating Systems: Principles and Practice (2nd Edition)](http://ospp.cs.washington.edu)
+* [Operating Systems Design and Implementation, 3/E](http://book.douban.com/subject/1764254/)
+* [UNIX环境高级编程](http://book.douban.com/subject/1788421/)
