@@ -23,6 +23,7 @@
 8. [Semaphores, Condition Variables, Readers/Writers](https://github.com/samlaudev/Learning-Operating-Systems/raw/master/Handouts/PDF/Lecture%208-%20Semaphores%2C%20Condition%20Variables%2C%20Readers:Writers.pdf)[[ppt](https://github.com/samlaudev/Learning-Operating-Systems/raw/master/Handouts/PPT/Lecture%208-%20Semaphores%2C%20Condition%20Variables%2C%20Readers:Writers.pptx)]
 9. [Synchronization (Finish), Scheduling](https://github.com/samlaudev/Learning-Operating-Systems/raw/master/Handouts/PDF/Lecture%209-%20Synchronization%20(Finish)%2C%20Scheduling.pdf)[[ppt](https://github.com/samlaudev/Learning-Operating-Systems/raw/master/Handouts/PPT/Lecture%209-%20Synchronization%20(Finish)%2C%20Scheduling.pptx)]
 10. [Advanced Scheduling, Deadlock](https://github.com/samlaudev/Learning-Operating-Systems/raw/master/Handouts/PDF/Lecture%2010-%20Advanced%20Scheduling%2C%20Deadlock.pdf)[[ppt](https://github.com/samlaudev/Learning-Operating-Systems/raw/master/Handouts/PPT/Lecture%2010-%20Advanced%20Scheduling%2C%20Deadlock.pptx)]
+11. [Deadlock, Address Translation, Virtual Memory](https://github.com/samlaudev/Learning-Operating-Systems/raw/master/Handouts/PDF/Lecture%2011-%20Deadlock%2C%20Address%20Translation%2C%20Virtual%20Memory.pdf)[[ppt](https://github.com/samlaudev/Learning-Operating-Systems/raw/master/Handouts/PPT/Lecture%2011-%20Deadlock%2C%20Address%20Translation%2C%20Virtual%20Memory.pptx)]
 
 ####视频链接：[UC Berkeley Computer Science 162 Fall 2015](https://www.youtube.com/watch?v=1IcZB26STUE&list=PLmJS5QR6Sdxy4XHQ5A__3irZvSQh1yI8V)
 
