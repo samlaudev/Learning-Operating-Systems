@@ -26,6 +26,7 @@
 11. [Deadlock, Address Translation, Virtual Memory](https://github.com/samlaudev/Learning-Operating-Systems/raw/master/Handouts/PDF/Lecture%2011-%20Deadlock%2C%20Address%20Translation%2C%20Virtual%20Memory.pdf)[[ppt](https://github.com/samlaudev/Learning-Operating-Systems/raw/master/Handouts/PPT/Lecture%2011-%20Deadlock%2C%20Address%20Translation%2C%20Virtual%20Memory.pptx)]
 12. [Address Translation, Caching](https://github.com/samlaudev/Learning-Operating-Systems/raw/master/Handouts/PDF/Lecture%2012-%20Address%20Translation%2C%20Caching.pdf)[[ppt](https://github.com/samlaudev/Learning-Operating-Systems/raw/master/Handouts/PPT/Lecture%2012-%20Address%20Translation%2C%20Caching.pptx)]
 13. [Address Translation, Caching(Continue)](https://github.com/samlaudev/Learning-Operating-Systems/raw/master/Handouts/PDF/Lecture%2013-%20Address%20Translation%2C%20Caching%20Continue.pdf) [[ppt](https://github.com/samlaudev/Learning-Operating-Systems/raw/master/Handouts/PPT/Lecture%2013-%20Address%20Translation%2C%20Caching%20Continue.pptx)]
+14. [Caching (finished), Demand Paging](https://github.com/samlaudev/Learning-Operating-Systems/raw/master/Handouts/PDF/Lecture%2014-%20Caching%2C%20Demand%20Paging.pdf)[[ppt](https://github.com/samlaudev/Learning-Operating-Systems/raw/master/Handouts/PPT/Lecture%2014-%20Caching%2C%20Demand%20Paging.pptx)]
 
 ####视频链接：[UC Berkeley Computer Science 162 Fall 2015](https://www.youtube.com/watch?v=1IcZB26STUE&list=PLmJS5QR6Sdxy4XHQ5A__3irZvSQh1yI8V)
 
